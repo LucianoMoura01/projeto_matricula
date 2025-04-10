@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Formulário</title>
+    </head>
+    <body>
+        <form name="matricula" onsubmit="alert('Solicitação de Mátricula Enviada!');" action="https://www.onderecebeformulario.com" autocomplete="on" method="post" target="_blank">
+           <p>Matrícula</p>
+
+            <input type="radio" name="rematricula" value="sim" checked> Nova<br>
+            <input type="radio" name="rematricula" value="nao"> Renovação<br><hr>
+            
+            <p>Dados do Aluno(a)</p>
+
+            Nome Completo: <input type="text" name="name" /><br>
+            Data de Nascimento: <input type="date" name="date" /> 
+            Idade : <br>
+            Sexo:  <br>
+            <input type="radio" name="sexo" value="masculino" checked> Masculino<br>
+            <input type="radio" name="sexo" value="feminino"> Feminino<br>
+            <input type="radio" name="sexo" value="outro">Outro
+
+            <hr>
+            <p>Modalidades</p>
+
+            <input type="checkbox" name="modalidade" value="ballet"> Ballet<br>
+            <input type="checkbox" name="modalidade" value="comteporaneo"> Contemporâneo<br> 
+            <input type="checkbox" name="modalidade" value="jazz"> Jazz<br>
+            <hr>
+            <p>Turmas</p>
+            Ballet:<br>
+            <input type="radio" name="turma" value="turma1" checked> Turma 1<br>
+            <input type="radio" name="turma" value="turma2"> Turma 2<br>
+            <input type="radio" name="turma" value="turma3"> Turma 3<br>
+            <input type="radio" name="turma" value="turma4"> Turma 4<br>
+
+            Comteporâneo:<br>
+            <input type="radio" name="turma" value="turma1" checked> Turma 1<br>
+            <input type="radio" name="turma" value="turma2"> Turma 2<br>
+            <input type="radio" name="turma" value="turma3"> Turma 3<br>
+            <input type="radio" name="turma" value="turma4"> Turma 4<br>
+
+            Jazz:<br>
+            <input type="radio" name="turma" value="turma1" checked> Turma 1<br>
+            <input type="radio" name="turma" value="turma2"> Turma 2<br>
+            <input type="radio" name="turma" value="turma3"> Turma 3<br>
+            <input type="radio" name="turma" value="turma4"> Turma 4<br>
+
+            <hr>
+
+            <p>Dados do Responsável</p>
+
+            Nome Completo: <input type="text" name="name" /><br>
+            Data de Nascimento: <input type="date" name="date" /><br>
+            Celular: <input type="tel" name="tel" /><br>
+            Telefone: <input type="tel" name="tel" /><br>
+            E-mail: <input type="email" name="email" /><br>
+
+            <p>Endereço:</p>
+            
+            <input type="text" name="endereco" /><br>
+                <small><sup>Rua, Av, Etc.</sup></small><br>
+            <input type="text" name="complemento" /><br>
+                <small><sup>Complemento</sup></small><br>
+            <input type="text" name="cidade" /><br>
+                <small><sup>Cidade</sup></small><br>
+            <input type="text" name="bairro" /><br>
+                <small><sup>Bairro</sup></small><br>
+
+            <hr>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </body>
+</html>
