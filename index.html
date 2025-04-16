@@ -19,6 +19,14 @@
                 border-radius: 8px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
+            p{
+                font-size: 24px;
+                font-weight: bold;
+                text-align: center;
+                color: #333;
+                font-family: 'Brush Script MT', cursive;
+                margin-bottom: 20px;
+            }
             button {
                 background-color: #6cce79;
                 color: white;
@@ -48,15 +56,15 @@
         <form name="matricula" onsubmit="alert('Solicitação de Mátricula Enviada!');" action="https://www.onderecebeformulario.com" autocomplete="on" method="post" target="_blank">
            <p>Matrícula</p>
 
-            <input type="radio" name="rematricula" value="sim" checked> Nova<br>
+            <input type="radio" name="rematricula" value="sim" checked> Nova Matrícula<br>
             <input type="radio" name="rematricula" value="nao"> Renovação<br><br>
             
             <fieldset>
                 <legend>Dados do Aluno(a)</legend>
 
-                Nome Completo: <input type="text" name="name" /><br>
-                Data de Nascimento: <input type="date" name="date" /> 
-                Idade : <br>
+                Nome Completo: <input type="text" name="name" /><br><br>
+                Data de Nascimento: <input type="date" name="date" /> <br><br>
+                Idade : <br><br>
                 Sexo:  <br>
                 <input type="radio" name="sexo" value="masculino" checked> Masculino<br>
                 <input type="radio" name="sexo" value="feminino"> Feminino<br>
@@ -88,6 +96,7 @@
                 <input type="radio" name="turma" value="turma4"> Turma 4<br>
 
                 <br>Jazz:<br>
+
                 <input type="radio" name="turma" value="turma1" checked> Turma 1<br>
                 <input type="radio" name="turma" value="turma2"> Turma 2<br>
                 <input type="radio" name="turma" value="turma3"> Turma 3<br>
